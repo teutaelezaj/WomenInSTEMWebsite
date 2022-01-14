@@ -10,11 +10,11 @@ header{
 
 h1{
   margin-top: 40px;
-  margin-bottom: 40px;
-  color:rgb(165, 62, 114);
+  /* margin-bottom: 40px; */
+  color:#a53e72;
   font-style:inherit;
   font-size: 55px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container h1 span{
@@ -24,6 +24,7 @@ h1{
 body{
   background-color: #FFD8E7;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+  font-family: 'Work Sans', sans-serif;
   font-size: 1rem;
 }
 
@@ -61,23 +62,25 @@ a{
   padding: 2rem;
 }
 
-/* .card:nth-child(even)img{
+.card:nth-child(even)img{
   order:2;
-} */
+}
 
 nav{
   background-color: rgb(255, 175, 231, 0.3);
   text-align: center;
   margin-bottom: 20px;
-  padding-top: 20px;
+  /* padding-top: 50px; */
   padding-bottom: 20px;
+  width: 100%;
+  height: 150px;
 }
 
 
 nav a{
   text-decoration: none;
   color:rgb(199, 78, 163);
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -99,27 +102,26 @@ main h2{
   padding-bottom:15px;
 }
 
-main a{
+.container a{
   text-decoration: none;
   color:rgb(199, 78, 163);
   font-size: 20px;
   display: inline-block;
   background: rgb(255, 255, 255);
   cursor: pointer; 
-  padding: 0.8rem 1.8rem;
-  margin-top: 2rem;
-  margin-bottom: 30px;
+  padding: 0.7rem 1.8rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 main p{
-  text-align:center;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .btn{
   display: inline-block;
-  background: black;
-  color: white;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 0.8rem 1.8rem;
   margin-top: 2rem;
   cursor: pointer;
@@ -159,12 +161,6 @@ footer a{
   text-align:center;
 }
 
-.container a{
-  background-color: #FFD8E7;
-  color: rgb(141, 53, 114);
-  text-decoration: none;
-}
-
 p{
   font-size: 14px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -176,17 +172,222 @@ p{
   margin-top: 20px;
 }
 
-.intro-text{
-  opacity: 0;
-  transform: translateY(20px);
-  transition: 0.5 all ease-in-out;
-}
-
-.intro-appear{
-  opacity: 1;
-  transform: translateY(0px);
-}
-
 footer h1 span{
   color: rgb(255, 107, 181);;
+}
+
+.ourgoalsbtn{
+  background-color:  white;
+  color:rgb(165, 62, 114);
+}
+
+.ourgoalsbtn:hover{
+  opacity: 0.8;
+}
+
+.suggestionsbtn{
+  background-color:  white;
+  color:rgb(165, 62, 114);
+}
+
+.suggestionsbtn:hover{
+  opacity: 0.8;
+}
+
+
+.homebtn{
+  background-color:  white;
+  color:rgb(165, 62, 114);
+}
+
+.homebtn:hover{
+  opacity: 0.8;
+}
+
+
+.card p{
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.groupmelink{
+  background-color: #FFD8E7;
+}
+
+.containergroup a{
+  background-color: #FFD8E7;
+  text-decoration: none;
+  color:rgb(199, 78, 163);
+  font-size: 20px;
+  display: inline-block;
+  cursor: pointer; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.containergroup p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.containergroup h1 span{
+  color:rgb(255, 107, 181);
+}
+
+/* ul{
+margin-left: 60px;
+}
+
+ul li{
+list-style:none;
+display:inline-block;
+float: left;
+line-height: 100px;
+
+}
+
+ul li a{
+  display: block;
+text-decoration:none;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(165, 62, 114);
+padding: 0 20px;
+} */
+
+body img{
+  margin-left:100px;
+  margin-top: 50px;
+} 
+
+
+.navbar{
+  background-color: #ffffff;
+  color: black;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list{
+  list-style-type: none;
+}
+
+ul li{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: rgb(199, 78, 163);;
+}
+
+.primary-icon{
+  height: 160px;
+  float: left;
+  padding-bottom:30px;
+}
+
+.teuta_image{
+  margin-left:100px;
+  margin-top: 130px;
+}
+
+.reyan_image{
+  margin-left:150px;
+  margin-top: 150px;
+}
+
+.sid_image{
+margin-top: 100px;
+}
+
+.womanphotos{
+  margin-bottom:40px;
+}
+
+.w3-center{
+  position: relative;
+}
+
+.w3-container h1 span{
+  color:rgb(255, 107, 181);
+}
+
+.w3-container h1{
+  margin-top: 40px;
+  /* margin-bottom: 40px; */
+  color:#a53e72;
+  font-style:inherit;
+  font-size: 55px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center
+}
+
+.w3-container h2{
+  text-align:center;
+}
+
+.w3-content{
+  margin-left: 210px;
+}
+
+.w3-center{
+  text-align: center;
+}
+
+.w3-button{
+  margin-top: 30px;
+}
+
+@media only screen and (max-width:700px){
+  nav ul{
+    width: 100%;
+    background:rgb(255, 255, 255);
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+  }
+
+  .primary-icon{
+    margin-left: 20px; 
+    margin-top: 25px;
+  }
+  .container{
+    text-align: center;
+  }
+
+  .container h1{
+    font-size: 45px;
+  }
+
+  .container h2{
+    font-size: 20px;
+  }
+
+  .container p{
+    font-size: 14px;
+  }
+
+  .instapage{
+   margin-left: 20px;
+  }
+  .groupmepage{
+    margin-left: 27px;
+  }
+
+  .discordpage{
+    margin-left: 52px;
+  }
+  .emailpage{
+    margin-left: 45px;
+  }
+
+
 }
