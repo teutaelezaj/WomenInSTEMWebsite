@@ -179,6 +179,29 @@
     font-weight: 700;
   }
 
+  .contentResources{
+    text-align: center;
+    padding-top: 150px;
+    color: #202020;
+    z-index: -1;
+  }
+
+
+  .contentResources h1{
+    font-size: 45px;
+}
+
+.contentResources h1 span{
+  color: #a53e72;
+}
+
+.contentResources p{
+  font-size: 20px;
+  /* font-weight: 700; */
+}
+
+
+
   .info{
       text-align: center;
       left: 50%;
@@ -277,11 +300,11 @@
     margin: 0 auto;
     max-width: 1000px;
     display: grid;
-   grid-template-columns: repeat(3, 1fr);
+   /* grid-template-columns: repeat(3, 1fr); */
     grid-auto-rows: auto;
     gap: 40px;
     font-family: sans-serif;
-    padding-top: 400px;
+    /* padding-top: 400px; */
   }
 
   .cards * {
@@ -432,23 +455,6 @@
 	color:#aaa;
 	margin-bottom:0;
   }
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
 
   @media only screen and (max-width:700px){
     .info p{
