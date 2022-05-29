@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Events</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <input type="checkbox" id="btn" hidden>
+    <label for="btn" class="menu-btn">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times"></i>
+    </label>
+    <nav id="sidebar">
+       <div class="title">
+        <h1>Women In STEM SJU</h1>
+       </div>
+       <ul class="list-items">
+          <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+          <li><a href="whywis.html"><i class="fas fa-home"></i>Why WIS?</a></li>
+          <li><a href="aboutus.html"><i class="fas fa-sliders-h"></i>Meet The Board</a></li>
+          <li><a href="eventsAndGoals.html"><i class="fas fa-address-book"></i>Events</a></li>
+          <li><a href="resources.html"><i class="fas fa-cog"></i>Resources</a></li>
+          <!-- <li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li> -->
+       </ul>
+    </nav>
+ </div>
+
+<div class="content">
+    <div class="header">
+       <h1>WIS <span> Events</span></h1>
+    </div>
+ </div>
+
+   
+  <div class="cont">
+    <div class="lab" data-label="Connect w/ FU!">
+      <div class="card-cont">
+      <h1 class="card-head">
+        Womens Networking Event
+      </h1>
+      <p class="card-body">
+       In collaboration with Feminists Unite, Women in Law Society, UNICEF, and Career Services, we discussed our fields  (including STEM🔬, law👩‍⚖️, humanities🌏, and more!) and also got the opportunity to meet like-minded women. We also honed in on the importance of utilizing LinkedIn, and went over what a good resume looks like.
+      </p>
+      <a href="https://www.instagram.com/feministsunitesju/?hl=en">
+        <button class="eventbtn" style="vertical-align:middle"><span>Check Out Their Instagram!</span></button>
+        </a>
+
+     </div>
+ </div>
+ </div>
+
+<div class="cont">
+    <div class="lab" data-label="Connect w/ Melody!">
+      <div class="card-cont">
+      <h1 class="card-head">
+        A Day In The Life Of A Columbia Medical Student
+      </h1>
+      <p class="card-body">
+        As a current third year medical student, a Harvard graduate, and content creator on YouTube and TikTok, Melody Gomez has racked up an incredible resume. She discussed her journey to Harvard, and how she used her time in college to get into med school 
+      </p>
+      <!-- <form method="get" action="Resume Building & Internships.pdf">
+       <button type="submit">Download!</button>
+    </form> -->
+    <a href="https://www.mezonthemove.com/about">
+      <button class="eventbtn" style="vertical-align:middle"><span>Connect With Melody!</span></button>
+      </a>
+
+     </div>
+ </div>
+ </div>
+
+<div class="cont">
+    <div class="lab" data-label="Download The PDF!">
+      <div class="card-cont">
+      <h1 class="card-head">
+        Artificial Intelligence & Machine Learning
+      </h1>
+      <p class="card-body">
+        In collaboration with SJU ACM (Association for Computing Machinery), we discovered what AI & Machine Learning are and how they’re applied in the real world, as well as gained insight into how apps like Instagram, Spotify, and TikTok use ML to keep you hooked on their platforms. We also learned how ML is transforming the medical industry as we guided you step by step in building a machine learning model from scratch to detect breast cancer with 97% accuracy!
+      </p>
+      <a href="https://docs.google.com/spreadsheets/d/1ESYvAwmJJTK2RUqTHTTeR1CzV5-VfViUZ_mQd5VvSZQ/edit?usp=sharing">
+        <button class="eventbtn" style="vertical-align:middle"><span>Check It Out Here!</span></button>
+        </a>
+  
+     </div>
+  </div>
+  </div>
+
+<div class="cont">
+    <div class="lab" data-label="Download the PDF!">
+      <div class="card-cont">
+      <h1 class="card-head">
+        Resume Building + Internships
+      </h1>
+      <p class="card-body">
+        Arguably the most important step in starting your career is creating a resume and landing an internship/job. With that being said, it’s also super hard! We discussed how to create a perfect resume and use it to get that internship/job you’ve been eyeing. Most of the board has experience with internships across all STEM fields, so we can answer any questions you may have alongside offer tips on networking!
+      </p>
+      <form method="get" action="SJU_ACM_Intro_to_AI_&_ML.pdf">
+        <button class="eventbtn" type="submit">Download The Slides!</button>
+     </form>
+     </div>
+  </div>
+  </div>
+
+<div class="cont">
+    <div class="lab" data-label="Connect w/ Anna!">
+      <div class="card-cont">
+      <h1 class="card-head">
+        Women In Tech With Anna Yeomans
+      </h1>
+      <p class="card-body">
+        As a Solutions Engineer at CodeSignal with an extensive and unconventional background (and an SJU alumni!), Yeomans serves as an incredible example as to what journey tech can take you on. We discussed her background, career, advice, and what it is like as a woman in an incredibly male dominated field 👩‍💻💻💘
+      </p>
+      <a href="https://www.linkedin.com/in/annayeomans/">
+        <button class="eventbtn" style="vertical-align:middle"><span>Connect With Anna!</span></button>
+        </a>
+     </div>
+  </div>
+  </div>
+
+<div class="cont">
+    <div class="lab" data-label="Research w/ Dr. Mantell">
+      <div class="card-cont">
+      <h1 class="card-head">
+        Pizza & Chat
+      </h1>
+      <p class="card-body">
+        Born and raised in China, Dr. Mantell received her training in the medical sciences at Beijing Medical University. She went on to earn her Ph.D. in Molecular and Cellular Pharmacology at Stony Brook University. She then did her post-doctoral work with Dr. Carol Grieder (who won the 2009 Nobel Prize!) and then went to work at Winthrop University Hospital. Her research focuses on oxidative stress [an excess of pro-oxidants that can damage cells] as a side effect of mechanical ventilation, being especially prevalent in today’s times. She gave us a live Q&A on her journey in research.
+      </p>
+      <a href="https://www.researchgate.net/profile/Lin-Mantell">
+        <button class="eventbtn" style="vertical-align:middle"><span>Check Out Dr. Mantell's Research</span></button>
+        </a>
+     </div>
+  </div>
+  </div>
+  
+<div class="cont">
+    <div class="lab" data-label="Download the PDF!">
+      <div class="card-cont">
+      <h1 class="card-head">
+        WIS In SJU GBM
+      </h1>
+      <p class="card-body">
+        Our very first meeting! We introduced ourselves, went over upcoming events, revealed future speakers, and more! The more input we receive from our members, the better🧬
+      </p>
+      <form method="get" action="GBM Presentation.pdf">
+       <button class="eventbtn" type="submit">Download!</button>
+    </form>
+     </div>
+  </div>
+  </div>
+
+  <div class="footer-basic">
+    <footer>
+        <div class="social"><a href="https://www.instagram.com/womeninstemsju/"><i class="icon ion-social-instagram"></i></a><a href="https://discord.gg/W5z2gDmH"><i class="fa-brands fa-discord"></i>></a><a href="https://twitter.com/WomenInStemSju"><i class="icon ion-social-twitter"></i></a><a href="https://www.linkedin.com/company/women-in-stem-sju/mycompany/?viewAsMember=true"><i class="icon ion-social-linkedin"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="resources.html">Resources</a></li>
+            <li class="list-inline-item"><a href="https://linktr.ee/WomenInSTEMSJU">Connect</a></li>
+            <li class="list-inline-item"><a href="mailto:womeninstemsju@gmail.com?subject=Mail from our Website">Email Us</a></li>
+        </ul>
+        <p class="copyright">Women In STEM at St. John's University © 2022</p>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  
+
+   </body>
+   </html>
