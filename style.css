@@ -25,30 +25,12 @@
   margin: 0;
 }
 
-
-.card-container {
-  overflow: hidden;
-}
-
 .cardNew {
   background-color: rgb(255, 255, 255);
   color: black;
   min-height: 100%; /*replace this it in width: 100%*/
   width: 50%;
   float: right;
-}
-
-.card-title {
-  font-size: 30px;
-  text-align: center;
-  font-weight: bold;
-  padding-top: 20px;
-}
-
-.card-desc {
-  padding: 10px;
-  text-align: left;
-  font-size: 18px;
 }
 
 .wrapper{
@@ -210,11 +192,6 @@
       font-size: 45px;
   }
 
-  /* .content .header{
-    font-size: 45px;
-    font-weight: 700;
-  } */
-
   .content h1 span{
     color: #a53e72;
 }
@@ -260,14 +237,6 @@
 
   }
 
-  /* .info{
-    position: absolute;
-    top: 42%;
-    text-align: center;
-    left: 20%;
-    right: 20%;
-    z-index: -1;
-} */
 
 .info p{
     text-align: center;
@@ -475,26 +444,6 @@
   margin-right: 8px;
 }
 
-.card__infoRes {
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #eeeeee;
-  background: #eeeeee;
-  background-color: #ffffff;
-  /* font-size: 0.8em; */
-  font-size: 19px;
-  border-bottom: 2px solid #c990ab;
-  border-right: 2px solid #c990ab;
-  border-left: 2px solid #c990ab;
-}
-
-.card__infoRes i {
-  font-size: 0.9em;
-  margin-right: 8px;
-}
-
 .card__linkRes {
   color: #a53e72;
   text-decoration: none;
@@ -603,8 +552,8 @@
     text-align: center;
     font-size: 15px;
     padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     /* padding-bottom: 50px; */
   }
 
@@ -622,8 +571,8 @@
   .Goals p{
     font-size: 15px;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .Mission h1{
@@ -640,8 +589,8 @@
   .Mission p{
     font-size: 15px;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .Benefit h1{
@@ -658,8 +607,9 @@
   .Benefit p{
     font-size: 15px;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
   }
 
   #slider,
@@ -852,7 +802,7 @@
     top: 2rem;
     right: -0.5rem;
     content: '';
-    background: #a53e72;
+    /* background: #a53e72; */
     height: 28px;
     width: 28px;
     transform: rotate(45deg);
@@ -865,14 +815,154 @@
     right: -14px;
     padding: 0.5rem;
     width: 10rem;
-    background: #a53e72;
+    /* background: #a53e72; */
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+    /* box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2); */
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
   }
+
+
+  /* resource cards */
+
+  .crd{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+  }
+  .crd h2.header{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .services{
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    align-items: center;
+  }
+  
+  .services-2{
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    align-items: center;
+  }
+  .cnt{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all .3s ease;
+  }
+  .cnt .fab{
+    font-size: 70px;
+    margin: 16px 0;
+  }
+  .cnt > *{
+    flex: 1 1 100%;
+  }
+  .cnt:hover{
+    color: white;
+  }
+  .cnt:hover a{
+    border-color: white;
+    background: white;
+  }
+  .cnt-1:hover{
+    border-color: #1DA1F2;
+    background: #1DA1F2;
+  }
+  .cnt-1:hover a{
+    color: #1DA1F2;
+  }
+  .cnt-2:hover{
+    border-color: #b951c7;
+    background: #b951c7;
+  }
+  .cnt-2:hover a{
+    color: #b951c7;
+  }
+  .cnt-3:hover{
+    border-color: #4c8d43;
+    background: #4c8d43;
+  }
+  .cnt-3:hover a{
+    color: #4c8d43;
+  }
+  
+  .cnt-4:hover{
+    border-color: #486f94;
+    background: #486f94;
+  }
+  .cnt-4:hover a{
+    color: #486f94;
+  }
+  
+  .cnt-5:hover{
+    border-color: #ff0000;
+    background: #ff0000;
+  }
+  .cnt-5:hover a{
+    color: #ff0000;
+  }
+  
+  .cnt-6:hover{
+    border-color: #ffa600;
+    background: #ffa600;
+  }
+  .cnt-6:hover a{
+    color: #ffa600;
+  }
+  
+  .cnt-7:hover{
+    border-color: #913381;
+    background: #913381;
+  }
+  .cnt-7:hover a{
+    color: #913381;
+  }
+  .cnt h2{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .cnt p{
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+  }
+  .cnt a{
+    margin: 22px 0;
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 0;
+    border-radius: 25px;
+    transition: .3s ease;
+  }
+  .cnt a:hover{
+    border-radius: 4px;
+  }
+  @media (max-width: 900px) {
+    .services{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .services-2{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
 
 
   @media only screen and (max-width:700px){
@@ -895,29 +985,19 @@
     z-index: -1;
 }
 
-    .cards{
-        margin: 0 auto;
-        max-width: 1000px;
-        display: grid;
-       /* grid-template-columns: repeat(2, 1fr); */
-        grid-auto-rows: auto;
-        gap: 80px;
-        font-family: sans-serif;
-        /* padding-top: 30px;
-        padding-top: 800px; */
-        z-index: 1;
-    
-    }
-
-
-.float-layoutRes {
-  padding: 5px 5px;
-  float: left;
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  margin: 0;
+  .cards{
+     margin: 0 auto;
+      max-width: 1000px;
+      display: grid;
+      /* grid-template-columns: repeat(2, 1fr); */
+      grid-auto-rows: auto;
+      gap: 80px;
+      font-family: sans-serif;
+      /* padding-top: 30px;
+      padding-top: 800px; */
+      z-index: 1;
 }
+
 
 .card__imageAU {
   width: 100%;
@@ -954,4 +1034,34 @@
   padding-right: 10px;
 }
 
-  }
+.aboutWIS p{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* padding-bottom: 50px; */
+}
+
+.Goals p{
+  font-size: 15px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.Mission p{
+  font-size: 15px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.Benefit p{
+  font-size: 15px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+}
