@@ -51,32 +51,6 @@
   font-size: 18px;
 }
 
-.card-image {
-  display: flex;
-}
-
-div.card-image img {
-  width: 50%;
-  height: auto;
-}
-
-@media only screen and (max-width: 37.5em) {
-  div.card-image img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .card-image {
-     flex-direction: column;
-  }
-
-  .card {
-    width: 100%;
-    margin-top: -4px;
-  }
-}
-
-
 .wrapper{
     height: 100%;
     width: 300px;
@@ -236,6 +210,11 @@ div.card-image img {
       font-size: 45px;
   }
 
+  /* .content .header{
+    font-size: 45px;
+    font-weight: 700;
+  } */
+
   .content h1 span{
     color: #a53e72;
 }
@@ -272,8 +251,6 @@ div.card-image img {
   font-size: 20px;
   /* font-weight: 700; */
 }
-
-
 
   .info{
       text-align: center;
@@ -743,7 +720,19 @@ div.card-image img {
   right: 0;
   margin-right: 30px;
 }
-  
+
+.eventbtn {
+  background-color: #ffffff;
+  box-shadow: #8f1c4c 4px 4px 0px;
+  border-radius: 8px;
+  transition: transform 200ms, box-shadow 200ms;
+}
+
+.eventbtn:active{
+  transform: translayeY(4px) translateX(4px);
+  box-shadow: #999999 0px 0px 0px;
+}
+
   .resourceCard{
     padding-top: 30px;
     justify-content: center;
@@ -818,6 +807,71 @@ div.card-image img {
   .buttongroup:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  .cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 90px;
+    padding-top: 30px;
+  }
+  
+  .lab{
+    width: 40rem;
+    border-radius: 1rem;
+    background: #364f6b;
+    box-shadow: 4px 4px 15px rgba(#000, 0.15);
+    position: relative;
+    color: #434343;
+  }
+  
+  .lab .card-cont{
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 1rem;
+    position: relative;
+    border: 2px solid;
+    padding-bottom: 40px;
+  }
+  
+  .lab .card-head{
+    margin-bottom: 1rem;
+    font-family: 'Poppins';
+    color: #000000;
+  }
+  
+  .lab::before{
+    position: absolute;
+    top: 2rem;
+    right: -0.5rem;
+    content: '';
+    background: #a53e72;
+    height: 28px;
+    width: 28px;
+    transform: rotate(45deg);
+  }
+  
+  .lab::after{
+    position: absolute;
+    content: attr(data-label);
+    top: 11px;
+    right: -14px;
+    padding: 0.5rem;
+    width: 10rem;
+    background: #a53e72;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
   }
 
 
@@ -899,4 +953,5 @@ div.card-image img {
   padding-left: 10px;
   padding-right: 10px;
 }
-}
+
+  }
